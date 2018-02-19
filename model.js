@@ -67,5 +67,5 @@ module.exports = {
     Product: mongoose.model('Product', ProductSchema),
     Cart_item: mongoose.model('cartItem', CartItemSchema),
    // City: mongoose.model('city', ShopCity)
-
+//
 };
