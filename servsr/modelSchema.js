@@ -2,7 +2,7 @@ mongoose = require('mongoose');
 var Schema = mongoose.Schema;
 
 var UserSchema = new Schema({
-    _autoIndexId: Number,
+   _id: Number,
     fname: String,
     lname: String,
     userName: String,
